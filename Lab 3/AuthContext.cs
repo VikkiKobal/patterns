@@ -14,7 +14,7 @@ public class AuthContext
         bool isAuthenticated = _strategy.Authenticate();
         if (isAuthenticated)
         {
-            Console.WriteLine("Привіт!");
+            Console.WriteLine("Аутентифікація пройшла!");
         }
     }
 }
